@@ -9,5 +9,15 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "pnpm": {
+    "approvedBuilds": [
+      "unrs-resolver",
+      "esbuild",
+      "msgpackr-extract",
+      "workerd",
+      "@prisma/engines",
+      "prisma"
+    ]
   }
 }
