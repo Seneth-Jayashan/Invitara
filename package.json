@@ -1,0 +1,13 @@
+{
+  "name": "invitara-monorepo",
+  "version": "1.0.0",
+  "description": "Invitara - Smart Digital Invitation & Event Management Platform",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm -r build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
